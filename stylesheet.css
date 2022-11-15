@@ -1165,7 +1165,7 @@ audio {
 }
 
 .bannar {
-	max-width: 100%;
+	max-width: 40%;
 	-webkit-transform: translate(0px, -500px);
 	-moz-transform: translate(0px, -500px);
 	-o-transform: translate(0px, -500px);
@@ -1313,39 +1313,56 @@ audio {
 }
 
 #b1,
-#b11 {
+#b1r,
+#b8,
+#b8r,
+#b11,
+#b88 {
 	background-image: url('b1.png');
 }
 
 #b2,
-#b22 {
+#b2r,
+#b9,
+#b9r,
+#b22,
+#b99 {
 	background-image: url('b2.png');
 }
 
 #b3,
+#b3r,
+#b10,
+#b10r,
+#b1010,
 #b33 {
 	background-image: url('b3.png');
 }
 
 #b4,
+#b4r,
 #b44 {
 	background-image: url('b4.png');
 }
 
 #b5,
+#b5r,
 #b55 {
 	background-image: url('b5.png');
 }
 
 #b6,
+#b6r,
 #b66 {
 	background-image: url('b6.png');
 }
 
 #b7,
+#b7r,
 #b77 {
 	background-image: url('b7.png');
 }
+
 
 .balloons-rotate-behaviour-one {
 	-webkit-animation: balloons_rotate_one linear 10s infinite;
@@ -1532,7 +1549,9 @@ audio {
 #cake_fadein,
 #light_candle,
 #wish_message,
-#story {
+#story,
+#big_heart,
+#reload {
 	display: none;
 }
 
